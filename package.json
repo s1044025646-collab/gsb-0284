@@ -1,0 +1,25 @@
+{
+  "name": "perfect-maze-backend",
+  "version": "1.0.0",
+  "description": "离线矩形完美迷宫生成与墙体连通核验后端（TypeScript + Node.js + SQLite）",
+  "type": "module",
+  "main": "build/src/server-main.js",
+  "bin": {
+    "maze": "build/src/cli-main.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test --test-reporter=spec build/test/maze.test.js",
+    "start": "node build/src/server-main.js",
+    "dev": "node --experimental-strip-types src/server-main.ts",
+    "cli": "node build/src/cli-main.js",
+    "demo": "node build/src/cli-main.js demo"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.0"
+  }
+}
