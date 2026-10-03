@@ -1,0 +1,181 @@
+{
+  "id": 1,
+  "rows": 5,
+  "cols": 5,
+  "seed": 1,
+  "rngAlgorithm": "mulberry32-v1",
+  "rngVersion": 1,
+  "walls": [
+    [
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": true,
+        "s": false,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": false,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": true,
+        "s": false,
+        "w": false
+      }
+    ],
+    [
+      {
+        "n": true,
+        "e": true,
+        "s": false,
+        "w": true
+      },
+      {
+        "n": false,
+        "e": false,
+        "s": true,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": false,
+        "e": true,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": false,
+        "e": true,
+        "s": false,
+        "w": true
+      }
+    ],
+    [
+      {
+        "n": false,
+        "e": false,
+        "s": false,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": true,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": false,
+        "e": true,
+        "s": false,
+        "w": true
+      }
+    ],
+    [
+      {
+        "n": false,
+        "e": true,
+        "s": false,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": false,
+        "w": true
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": false,
+        "e": true,
+        "s": true,
+        "w": false
+      }
+    ],
+    [
+      {
+        "n": false,
+        "e": false,
+        "s": true,
+        "w": true
+      },
+      {
+        "n": false,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": false,
+        "s": true,
+        "w": false
+      },
+      {
+        "n": true,
+        "e": true,
+        "s": true,
+        "w": false
+      }
+    ]
+  ],
+  "validation": {
+    "ok": true,
+    "rows": 5,
+    "cols": 5,
+    "cellCount": 25,
+    "openEdgeCount": 24,
+    "expectedOpenEdges": 24,
+    "reachableCount": 25,
+    "issues": []
+  },
+  "createdAt": "2026-10-03T08:32:29.323Z"
+}

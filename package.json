@@ -1,0 +1,20 @@
+{
+  "name": "perfect-maze-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "离线完美迷宫生成与墙体连通核验后端（TypeScript + Node.js + SQLite）",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build:test && node --test dist-test/test/maze.test.js",
+    "start": "npm run build && node dist/cli.js serve",
+    "maze": "node dist/cli.js",
+    "demo": "npm run build && node dist/demo.js"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
